@@ -1,0 +1,225 @@
+body{
+  background-image: linear-gradient( 117deg,  rgba(123,216,96,1) 39.2%, rgba(255,255,255,1) 156.2% );
+  font:400 14px 'Calibri','Arial';
+    padding:20px;
+
+}
+
+table { 
+  border-spacing: 1; 
+  border-collapse: collapse; 
+  background:white;
+  border-radius:6px;
+  overflow:hidden;
+  max-width:1000px; 
+  width:100%;
+  margin:0 auto;
+  position:relative;
+  font-size: 20px;
+}
+
+  
+  * { position:relative }
+  
+  td,th           { padding-left:8px}
+
+  thead tr        { 
+    height:60px;
+    background:#32502E; ;
+    color: white;
+
+  }
+  td{
+    text-align: center; 
+  }
+  tbody tr    { 
+      height:60px; 
+      border-bottom:1px solid #E3F1D5;
+      width: 300px;
+    } 
+    tfoot tr {
+      height:65px; 
+      border-bottom:1px solid #E3F1D5;
+      width: 300px;
+    }
+
+
+blockquote {
+    color:white;
+    text-align:center;
+    font-size: 30px;
+  }
+
+
+  .tab1{
+      height: auto;
+      width:auto;
+      margin: auto;
+  }
+  div.add{
+    margin: auto;
+    text-align: center;
+    color: red;
+  }
+
+
+ input[type=text], input[type=number] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+
+/* Set a style for all buttons */
+button {
+  border-radius: 6px;
+background-color: #32502E;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  color: white;
+  width: auto;
+  font-size: 16px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+
+.cancelbtn {
+  width: auto;
+  background-color: #f44336;
+}
+
+
+.container {
+  padding: 16px;
+}
+
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4); 
+  padding-top: 60px;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; 
+  border: 1px solid #888;
+  width: 25%;
+}
+
+
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+.close {
+  position:relative;
+  margin-left: 90%;
+ 
+
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+  
+
+
+.btns{
+padding: 16px;
+text-align: center;
+}
+
+div h3{
+text-align: center;
+}
+
+
+a{
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 6px;
+  font-size: 16px;
+}
+.tab1 tr>td:nth-child(4) a:link ,.tab1 tr>td:nth-child(4) a:visited  {
+  background-color: #32502E;
+  display: inline-block;
+}
+.tab1 tr>td:nth-child(4) a:hover ,.tab1 tr>td:nth-child(4) a:active{
+  background-color: #467c3f;
+}
+
+  
+
+  .tab1 tr>td:nth-child(5) a:link ,.tab1 tr>td:nth-child(5) a:visited  {
+    background-color: #df4f45;
+    display: inline-block;
+    
+  }
+  .tab1 tr>td:nth-child(5) a:hover ,.tab1 tr>td:nth-child(5) a:active{
+    background-color: red;
+  }
+  
+
+
+.tab2 tr>td:nth-child(3) a:link ,.tab2 tr>td:nth-child(3) a:visited  {
+  background-color: #32502E;
+  display: inline-block;
+}
+.tab2 tr>td:nth-child(3) a:hover ,.tab2 tr>td:nth-child(3) a:active{
+  background-color: #467c3f;
+}
+
+  
+
+  .tab2 tr>td:nth-child(4) a:link ,.tab2 tr>td:nth-child(4) a:visited  {
+    background-color: #df4f45;
+    display: inline-block;
+  }
+  .tab2 tr>td:nth-child(4) a:hover ,.tab2 tr>td:nth-child(4) a:active{
+    background-color: red;
+  }

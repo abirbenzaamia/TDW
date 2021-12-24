@@ -1,0 +1,24 @@
+{
+    "tab1":[
+        {"culture":"Blé","superficie":"220417","produtionTotal":"729012","span":"rowspan='2'"},
+        {"culture":"Mais","superficie":"184800"},
+        {"culture":"Riz","superficie":"162716","produtionTotal":"741477"},
+        {"culture":"Haricot graines","superficie":"30612","span":"colspan='2'"},
+        {"culture":"Canne à sucre","superficie":"27124","produtionTotal":"1844246"},
+        {"culture":"Arachide","superficie":"26541","produtionTotal":"381682","span":"rowspan='3'"},
+        {"culture":"Tournesol","superficie":"25203"},
+        {"culture":"Blé","superficie":"19098"}       
+    ],
+    "tab2":[
+        {"espece":"Poulet","nbr":"21409683"},
+        {"espece":"Canard","nbr":"1131984"},
+        {"espece":"Lapin","nbr":"1474526","span":"rowspan='4'"},
+        {"espece":"Dinde"},
+        {"espece":"Autre oiseau"},
+        {"espece":"Bovin"},
+        {"espece":"Mouton","nbr":"1195624"},
+        {"espece":"Chèvre","nbr":"1011251"},
+        {"espece":"Buffle","nbr":"194463"},
+        {"espece":"Cheval","nbr":"58832"}
+    ]
+}
